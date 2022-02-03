@@ -1,0 +1,96 @@
+Ecuacion 1: a1 b1 * c 2 / + a1 -
+Se ha agregado el token a1 a la cola.
+Ingresa el valor de la variable a1 :
+8.0
+Se ha agregado el token b1 a la cola.
+Ingresa el valor de la variable b1 :
+4.0
+Se ha agregado el token * a la cola.
+Se ha agregado el token c a la cola.
+Ingresa el valor de la variable c :
+10.0
+Se ha agregado el token 2 a la cola.
+Se ha agregado el token / a la cola.
+Se ha agregado el token + a la cola.
+Se ha agregado el token a1 a la cola.
+Se ha agregado el token - a la cola.
+Se ha metido a1 a la pila y eliminado de la cola.
+Se ha metido b1 a la pila y eliminado de la cola.
+Valor tope de pila: 4.0
+El nuevo valor tope es: 8.0
+La operacion es entonces: 8.0 * 4.0 = 32.0
+Se ha metido c a la pila y eliminado de la cola.
+Valor tope de pila: 2.0
+El nuevo valor tope es: 10.0
+La operacion es entonces: 10.0 / 2.0 = 5.0
+Valor tope de pila: 5.0
+El nuevo valor tope es: 32.0
+La operacion es entonces: 32.0 + 5.0 = 37.0
+Se ha metido a1 a la pila y eliminado de la cola.
+Valor tope de pila: 8.0
+El nuevo valor tope es: 37.0
+La operacion es entonces: 37.0 - 8.0 = 29.0
+El resultado de tu expresion posfija es: 29.0
+
+Ecuacion 2: 50 2 4 + * 20 2 / - c +
+Se ha agregado el token 50 a la cola.
+Se ha agregado el token 2 a la cola.
+Se ha agregado el token 4 a la cola.
+Se ha agregado el token + a la cola.
+Se ha agregado el token * a la cola.
+Se ha agregado el token 20 a la cola.
+Se ha agregado el token 2 a la cola.
+Se ha agregado el token / a la cola.
+Se ha agregado el token - a la cola.
+Se ha agregado el token c a la cola.
+Se ha agregado el token + a la cola.
+Valor tope de pila: 4.0
+El nuevo valor tope es: 2.0
+La operacion es entonces: 2.0 + 4.0 = 6.0
+Valor tope de pila: 6.0
+El nuevo valor tope es: 50.0
+La operacion es entonces: 50.0 * 6.0 = 300.0
+Valor tope de pila: 2.0
+El nuevo valor tope es: 20.0
+La operacion es entonces: 20.0 / 2.0 = 10.0
+Valor tope de pila: 10.0
+El nuevo valor tope es: 300.0
+La operacion es entonces: 300.0 - 10.0 = 290.0
+Se ha metido c a la pila y eliminado de la cola.
+Valor tope de pila: 10.0
+El nuevo valor tope es: 290.0
+La operacion es entonces: 290.0 + 10.0 = 300.0
+El resultado de tu expresion posfija es: 300.0
+
+Ecuacion 3: 2 a1 ^ b1 6 + * c 30 * - 
+Se ha agregado el token 2 a la cola.
+Se ha agregado el token a1 a la cola.
+Se ha agregado el token ^ a la cola.
+Se ha agregado el token b1 a la cola.
+Se ha agregado el token 6 a la cola.
+Se ha agregado el token + a la cola.
+Se ha agregado el token * a la cola.
+Se ha agregado el token c a la cola.
+Se ha agregado el token 30 a la cola.
+Se ha agregado el token * a la cola.
+Se ha agregado el token - a la cola.
+Se ha metido a1 a la pila y eliminado de la cola.
+Valor tope de pila: 8.0
+El nuevo valor tope es: 2.0
+La operacion es entonces: 2.0 ^ 8.0 = 256.0
+Se ha metido b1 a la pila y eliminado de la cola.
+Valor tope de pila: 6.0
+El nuevo valor tope es: 4.0
+La operacion es entonces: 4.0 + 6.0 = 10.0
+Valor tope de pila: 10.0
+El nuevo valor tope es: 256.0
+La operacion es entonces: 256.0 * 10.0 = 2560.0
+Se ha metido c a la pila y eliminado de la cola.
+Valor tope de pila: 30.0
+El nuevo valor tope es: 10.0
+La operacion es entonces: 10.0 * 30.0 = 300.0
+Valor tope de pila: 300.0
+El nuevo valor tope es: 2560.0
+La operacion es entonces: 2560.0 - 300.0 = 2260.0
+El resultado de tu expresion posfija es: 2260.0
+
